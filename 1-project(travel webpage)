@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Travel webpage</title>
+    </head>
+    <body>
+    
+        <h1>Travel to Norway</h1>
+        
+        <h2>
+            lets go ^^ <br>
+            be ready for wiki :)
+        </h2>
+        
+        <p>
+            officially the Kingdom of Norway, is a Nordic country in Northern Europe whose mainland territory comprises the western and northernmost portion of the Scandinavian Peninsula. The remote Arctic island of Jan Mayen and the archipelago of Svalbard also form part of Norway.[note 1] Bouvet Island, located in the Subantarctic, is a dependency of Norway; it also lays claims to the Antarctic territories of Peter I Island and Queen Maud Land.
+        </p>
+        
+        <h3>so here its cities</h3>
+        
+        <ul>
+            <li>oslo(capital)</li>
+            <li>tronheim</li>
+            <li>and others xd</li>
+            
+        </ul>
+        
+        <h4>here goes images</h4>
+        
+        <img src ="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/1280px-Flag_of_Norway.svg.png">
+        
+    </body>
+</html>
