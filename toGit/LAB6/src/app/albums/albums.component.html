@@ -1,0 +1,14 @@
+<h1>ALBUMS</h1>
+
+<input type="text" [(ngModel)]="newAlbum">
+<button (click)='addAlbum()'>ADDALBUM</button>
+<div *ngIf='loaded'>
+    <div *ngFor="let album of albums">
+        <a [routerLink]="['/albums', album.id]">{{ album.id }}) {{ album.title}}</a>
+        <button (click)='deleteAlbum(album.id)'>X</button>
+    </div>
+</div>
+<div *ngIf='!loaded'>
+    <p>Loading....</p>
+</div>
+
