@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: Recipe book</title>
+        <meta charset="utf-8">
+        <style>
+            #header {
+                color:rgb(219, 131, 131);
+            }
+            .second-ones {
+                color:rgb(112, 255, 129);
+            }
+            .texts {
+                background-color:rgb(179, 162, 111);
+            }
+            
+        </style>
+    </head>
+    <body>
+       
+        <h1 id = "header">My Recipe Book</h1>
+        
+        <h2 class = "second-ones">Contents:</h2>
+        
+        <ol>
+            <li><a href="#firstone">Chicken & chorizo jambalaya</a></li>
+            <li><a href="#secondone">Lemon drizzle cake</a></li>
+        </ol>
+        
+        <h2 id="firstone" class = "second-ones">Recipe #1</h2>
+        
+        <ul>
+            <li>Time: 55 mins</li>
+            <li>Serves: 4</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        olive oil
+                    </td>
+                    <td>
+                        tbsp
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        chicken breast
+                    </td>
+                    <td>
+                        1
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <p class = "texts"><strong>Step 1:</strong> Heat 1 tbsp olive oil in a large frying pan with a lid and brown 2 chopped chicken breasts for 5-8 mins until golden.<br> <strong>Step2: </strong>Remove and set aside. Tip in the 1 diced onion and cook for 3-4 mins until soft.
+</p>
+        
+    <p><em>Source: <a href="https://www.bbcgoodfood.com/recipes/chicken-chorizo-jambalaya">Some recipes websites</a></em></p>
+    
+    <h2 id = "secondone" class = "second-ones"> Recipe #2</h2>
+    
+    <ul>
+        <li>Time: 15 mins</li>
+        <li>Serves: 10</li>
+    </ul>
+    
+    <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        unsalted butter
+                    </td>
+                    <td>
+                        225g
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        caster sugar
+                    </td>
+                    <td>
+                        225g
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        
+    <p class = "texts"><strong>Step 1:</strong> Heat the oven to 180C/160C fan/gas 4<br> <strong>Step2: </strong>Beat together the butter and caster sugar until pale and creamy, then add the eggs, one at a time, slowly mixing through.</p>
+    
+    </body>
+</html>
