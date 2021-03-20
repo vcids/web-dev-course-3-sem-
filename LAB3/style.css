@@ -1,0 +1,72 @@
+body {
+    margin: 0px;
+}
+
+.Header {
+    margin-top: 0px;
+    color:ghostwhite;
+    background-color: rgb(1, 22, 39);
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    padding: 20px 50px;
+}
+
+.Header2 {
+    text-align: center;
+    color:rgb(43, 45, 66);
+    font-family: sans-serif;
+}
+
+#inpt {
+    margin: 0px auto;
+    display: block;
+    width: 50%;
+    padding: 10px;
+}
+
+#add-btn {
+    color:aliceblue;
+    background:cadetblue;
+    font-family: sans-serif;
+    padding: 10px 20px;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    width: 80px;
+    cursor: pointer;
+}
+
+.task-content {
+    width: 50%;
+    margin: 0px auto;
+    background: chartreuse;
+    height:40px;
+}
+
+.text {
+    font-family: sans-serif;
+    color: cornsilk;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 8px;
+    position: relative;
+    top:8px;
+
+}
+
+.check-box {
+    position: relative;
+    bottom:37px;
+    left: 10px;
+    width: 22px;
+    height: 22px; 
+
+}
+
+.del-btn {
+    height: 22px;
+    position: relative;
+    left: 820px;
+    bottom: 38px; 
+}
